@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 45%;
+    border: 4px solid red;
+    border-radius: 18px;
+}
+.navbar{
+    display: flex;
+}
+.nav-list{
+    width: 50%;
+    /* background-color: rgb(39, 43, 43); */
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+list-style: none;
+padding: 23px;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+color: red;
+text-decoration: aqua;
+}
+.rightNav{
+    /* background-color: rgb(66, 66, 216); */
+    width: 50%;
+    text-align: right;
+    display: flexbox;
+    padding: 17px;
+
+}
+#search{
+    padding: 5px;
+    font-size: 17;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-right: 2%;
+    align-items: center;
+    justify-content: right;
+    
+}
+.btn{
+    font-family: 'Times New Roman', Times, serifS;
+    font-size: medium;
+     border-radius:  7px;
+     padding: 10px;
+     background-color: bisque;
+     cursor: pointer;
+     
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../images/cctvbg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(207, 39, 39);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+}
+.secondhalf img{
+    width: 30%;
+    
+}
+.firsthalf{
+width: 80%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.secondhalf{
+ padding : 10px;
+    width: 30%;
+}
